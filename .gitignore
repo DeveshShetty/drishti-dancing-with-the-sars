@@ -1,0 +1,70 @@
+# DRISHTI .gitignore
+# Only code, documentation and the small processed datasets the viewer needs are committed.
+
+# ---------------------------------------------------------------- secrets (never commit)
+.env
+.env.*
+!.env.example
+*.env
+!*.env.example
+viewer/config.js
+_netrc
+.netrc
+.dodsrc
+.urs_cookies
+*.pem
+*.key
+
+# ---------------------------------------------------------------- raw satellite downloads (~130 GB, re-downloadable)
+nisar_data/
+nisar_gorkha/
+nisar_volcano/
+nisar_bd_out/
+s1_data/
+s1_gorkha/
+s1_syab_asc/
+*.h5
+*.hdf5
+*.zip
+*.SAFE/
+
+# ---------------------------------------------------------------- licensed / intermediate data
+# Meteomatics weather history is licensed for the hackathon; the results are in viewer/*/drivers.json
+meteo/
+
+# ---------------------------------------------------------------- old copies and backups
+viewer/data_gorkha_old/
+viewer/data_nepal_old/
+viewer/index_esri.html
+_old_before_zip/
+*_backup_*/
+*.bak
+
+# ---------------------------------------------------------------- early exploration scripts (replaced by scripts/ and pipeline/)
+check_pair.py
+get_and_inspect.py
+
+# ---------------------------------------------------------------- logs and run output
+*.log
+explain_run.log
+
+# ---------------------------------------------------------------- Python
+.nisar/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------- tools, editors, OS
+.impeccable/
+.vscode/
+.idea/
+.firebase/
+firebase-debug.log
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini

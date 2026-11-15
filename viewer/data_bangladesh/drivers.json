@@ -1,0 +1,239 @@
+{
+ "site": "padma",
+ "title": "Padma River monsoon dynamics at Sadarpur",
+ "kind": "monsoon river change / erosion",
+ "event": "2026-10-18",
+ "event_utc": "2026-10-18T12:34:00Z",
+ "points": {
+  "local": {
+   "lat": 23.48,
+   "lon": 90.03,
+   "name": "Sadarpur, Faridpur"
+  },
+  "ganges": {
+   "multi": [
+    [
+     30.0,
+     79.0
+    ],
+    [
+     27.5,
+     81.5
+    ],
+    [
+     26.5,
+     84.0
+    ],
+    [
+     27.7,
+     85.3
+    ],
+    [
+     25.6,
+     85.1
+    ],
+    [
+     24.8,
+     87.9
+    ]
+   ],
+   "name": "Ganges basin (6-point mean)"
+  },
+  "brahma": {
+   "multi": [
+    [
+     29.3,
+     91.1
+    ],
+    [
+     27.5,
+     94.9
+    ],
+    [
+     26.2,
+     91.7
+    ],
+    [
+     25.6,
+     89.7
+    ],
+    [
+     27.4,
+     88.6
+    ]
+   ],
+   "name": "Brahmaputra basin (5-point mean)"
+  }
+ },
+ "baseline": "1980-2025",
+ "factors": [
+  {
+   "key": "ganges_season",
+   "label": "Ganges basin rain, 1 Jun to 18 Oct",
+   "point": "Ganges basin (6-point mean)",
+   "value": 1146.573,
+   "unit": "mm",
+   "normal": 1312.106,
+   "sd": 165.281,
+   "percentile": 15.2,
+   "percentile_recent": 6.2,
+   "z": -1.0,
+   "risky_side": "high",
+   "risky_percentile": 6.2,
+   "risky_percentile_all": 15.2,
+   "verdict": "normal",
+   "rank": "40 of 47",
+   "years": "1980-2025",
+   "recent_years": "2010-2025",
+   "window_days": 139,
+   "why": "more upstream rain, more water and sediment in the Padma",
+   "confidence": "good",
+   "confidence_note": ""
+  },
+  {
+   "key": "brahma_season",
+   "label": "Brahmaputra basin rain, 1 Jun to 18 Oct",
+   "point": "Brahmaputra basin (5-point mean)",
+   "value": 1447.078,
+   "unit": "mm",
+   "normal": 1857.843,
+   "sd": 229.072,
+   "percentile": 8.7,
+   "percentile_recent": 6.2,
+   "z": -1.79,
+   "risky_side": "high",
+   "risky_percentile": 6.2,
+   "risky_percentile_all": 8.7,
+   "verdict": "unusually low",
+   "rank": "43 of 47",
+   "years": "1980-2025",
+   "recent_years": "2010-2025",
+   "window_days": 139,
+   "why": "the Jamuna (Brahmaputra) joins the Padma just upstream",
+   "confidence": "good",
+   "confidence_note": ""
+  },
+  {
+   "key": "ganges_peak30",
+   "label": "Ganges basin rain, wettest 30 days of the season",
+   "point": "Ganges basin (6-point mean)",
+   "value": 413.262,
+   "unit": "mm",
+   "normal": 479.353,
+   "sd": 75.874,
+   "percentile": 23.9,
+   "percentile_recent": 12.5,
+   "z": -0.87,
+   "risky_side": "high",
+   "risky_percentile": 12.5,
+   "risky_percentile_all": 23.9,
+   "verdict": "normal",
+   "rank": "36 of 47",
+   "years": "1980-2025",
+   "recent_years": "2010-2025",
+   "window_days": 139,
+   "why": "flood peak",
+   "confidence": "good",
+   "confidence_note": ""
+  },
+  {
+   "key": "brahma_peak30",
+   "label": "Brahmaputra basin rain, wettest 30 days of the season",
+   "point": "Brahmaputra basin (5-point mean)",
+   "value": 522.606,
+   "unit": "mm",
+   "normal": 609.863,
+   "sd": 89.981,
+   "percentile": 17.4,
+   "percentile_recent": 6.2,
+   "z": -0.97,
+   "risky_side": "high",
+   "risky_percentile": 6.2,
+   "risky_percentile_all": 17.4,
+   "verdict": "normal",
+   "rank": "39 of 47",
+   "years": "1980-2025",
+   "recent_years": "2010-2025",
+   "window_days": 139,
+   "why": "flood peak",
+   "confidence": "good",
+   "confidence_note": ""
+  },
+  {
+   "key": "local_season",
+   "label": "Local rain at Sadarpur, 1 Jun to 18 Oct",
+   "point": "Sadarpur, Faridpur",
+   "value": 1042.88,
+   "unit": "mm",
+   "normal": 1237.247,
+   "sd": 237.932,
+   "percentile": 23.9,
+   "percentile_recent": 31.2,
+   "z": -0.82,
+   "risky_side": "high",
+   "risky_percentile": 31.2,
+   "risky_percentile_all": 23.9,
+   "verdict": "normal",
+   "rank": "36 of 47",
+   "years": "1980-2025",
+   "recent_years": "2010-2025",
+   "window_days": 139,
+   "why": "local bank saturation",
+   "confidence": "good",
+   "confidence_note": ""
+  },
+  {
+   "key": "recession",
+   "label": "Basin rain drop: last 30 days vs wettest 30 days",
+   "point": "Brahmaputra basin (5-point mean)",
+   "value": 0.801,
+   "unit": "share",
+   "normal": 0.654,
+   "sd": 0.109,
+   "percentile": 93.5,
+   "percentile_recent": 93.8,
+   "z": 1.35,
+   "risky_side": "high",
+   "risky_percentile": 93.8,
+   "risky_percentile_all": 93.5,
+   "verdict": "unusual",
+   "rank": "4 of 47",
+   "years": "1980-2025",
+   "recent_years": "2010-2025",
+   "window_days": 139,
+   "why": "banks often collapse while the water falls quickly after the peak",
+   "confidence": "good",
+   "confidence_note": ""
+  },
+  {
+   "key": "wind_30",
+   "label": "Wind speed at Sadarpur, 30-day mean",
+   "point": "Sadarpur, Faridpur",
+   "value": 3.083,
+   "unit": "m/s",
+   "normal": 3.389,
+   "sd": 0.18,
+   "percentile": 6.5,
+   "percentile_recent": 6.2,
+   "z": -1.7,
+   "risky_side": "high",
+   "risky_percentile": 6.2,
+   "risky_percentile_all": 6.5,
+   "verdict": "unusually low",
+   "rank": "44 of 47",
+   "years": "1980-2025",
+   "recent_years": "2010-2025",
+   "window_days": 139,
+   "why": "waves on the river attack the banks",
+   "confidence": "good",
+   "confidence_note": ""
+  }
+ ],
+ "earthquakes": null,
+ "summary": "Stood out before the event: basin rain drop: last 30 days vs wettest 30 days (unusual: 4th highest of 47 years). Unusually low (the other way): Brahmaputra basin rain, wind speed at Sadarpur. Within the normal range: Ganges basin rain, Local rain at Sadarpur. Unusual is not the same as causal: these are candidates, not proof.",
+ "sources": [
+  "Meteomatics Weather API (historic model and reanalysis data)",
+  "USGS earthquake catalogue"
+ ],
+ "generated": "2026-11-14 21:26 UTC"
+}

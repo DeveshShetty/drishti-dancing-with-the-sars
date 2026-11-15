@@ -1,0 +1,461 @@
+{
+  "title": "Syabrubesi-Dhunche corridor, Nepal",
+  "subtitle": "NISAR L-band (HH/HV) + Sentinel-1 C-band (VV/VH), ascending and descending",
+  "bbox": [
+    85.25002,
+    28.04852,
+    85.36998,
+    28.20148
+  ],
+  "width": 601,
+  "height": 839,
+  "pixel_size_m": 20.0,
+  "db_range": [
+    -30.0,
+    5.0
+  ],
+  "sensors": [
+    "NISAR L-band",
+    "Sentinel-1 C-band \u00b7 ascending",
+    "Sentinel-1 C-band \u00b7 descending"
+  ],
+  "frames": [
+    {
+      "date": "2026-08-16",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_028_048_D_074_4005_DHDH_A_20260816T125812_20260816T125846_P05023_N_F_J_001.h5",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 48,
+      "direction": "descending",
+      "frame": 74,
+      "mode": "4005",
+      "hh": "n_2026-08-16_hh.png",
+      "hv": "n_2026-08-16_hv.png"
+    },
+    {
+      "date": "2026-08-28",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_029_048_D_074_2005_QPDH_A_20260828T125812_20260828T125846_P05023_N_F_J_001.h5",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 48,
+      "direction": "descending",
+      "frame": 74,
+      "mode": "2005",
+      "hh": "n_2026-08-28_hh.png",
+      "hv": "n_2026-08-28_hv.png"
+    },
+    {
+      "date": "2026-09-09",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_030_048_D_074_4005_DHDH_A_20260909T125811_20260909T125846_P05023_N_F_J_001.h5",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 48,
+      "direction": "descending",
+      "frame": 74,
+      "mode": "4005",
+      "hh": "n_2026-09-09_hh.png",
+      "hv": "n_2026-09-09_hv.png"
+    },
+    {
+      "date": "2026-08-04",
+      "sensor": "Sentinel-1 C-band \u00b7 ascending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260804T122140_DVP_RTC20_G_gpuned_539D",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-08-04_hh.png",
+      "hv": "s1_2026-08-04_hv.png"
+    },
+    {
+      "date": "2026-08-16",
+      "sensor": "Sentinel-1 C-band \u00b7 ascending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260816T122141_DVP_RTC20_G_gpuned_7CD5",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-08-16_hh.png",
+      "hv": "s1_2026-08-16_hv.png"
+    },
+    {
+      "date": "2026-08-28",
+      "sensor": "Sentinel-1 C-band \u00b7 ascending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260828T122141_DVP_RTC20_G_gpuned_DDAE",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-08-28_hh.png",
+      "hv": "s1_2026-08-28_hv.png"
+    },
+    {
+      "date": "2026-09-09",
+      "sensor": "Sentinel-1 C-band \u00b7 ascending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260909T122141_DVP_RTC20_G_gpuned_A520",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-09-09_hh.png",
+      "hv": "s1_2026-09-09_hv.png"
+    },
+    {
+      "date": "2026-01-01",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260101T001927_DVP_RTC20_G_gpuned_DF2C",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-01-01_hh.png",
+      "hv": "s1_2026-01-01_hv.png"
+    },
+    {
+      "date": "2026-01-13",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260113T001926_DVP_RTC20_G_gpuned_6012",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-01-13_hh.png",
+      "hv": "s1_2026-01-13_hv.png"
+    },
+    {
+      "date": "2026-01-25",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260125T001925_DVP_RTC20_G_gpuned_2475",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-01-25_hh.png",
+      "hv": "s1_2026-01-25_hv.png"
+    },
+    {
+      "date": "2026-02-06",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260206T001925_DVP_RTC20_G_gpuned_A1E5",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-02-06_hh.png",
+      "hv": "s1_2026-02-06_hv.png"
+    },
+    {
+      "date": "2026-02-18",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260218T001924_DVP_RTC20_G_gpuned_A919",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-02-18_hh.png",
+      "hv": "s1_2026-02-18_hv.png"
+    },
+    {
+      "date": "2026-03-02",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260302T001924_DVP_RTC20_G_gpuned_118B",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-03-02_hh.png",
+      "hv": "s1_2026-03-02_hv.png"
+    },
+    {
+      "date": "2026-03-14",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260314T001924_DVP_RTC20_G_gpuned_9A25",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-03-14_hh.png",
+      "hv": "s1_2026-03-14_hv.png"
+    },
+    {
+      "date": "2026-03-26",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260326T001924_DVP_RTC20_G_gpuned_6CC1",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-03-26_hh.png",
+      "hv": "s1_2026-03-26_hv.png"
+    },
+    {
+      "date": "2026-04-07",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260407T001924_DVP_RTC20_G_gpuned_6CB5",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-04-07_hh.png",
+      "hv": "s1_2026-04-07_hv.png"
+    },
+    {
+      "date": "2026-04-19",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260419T001924_DVP_RTC20_G_gpuned_40CC",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-04-19_hh.png",
+      "hv": "s1_2026-04-19_hv.png"
+    },
+    {
+      "date": "2026-05-01",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260501T001924_DVP_RTC20_G_gpuned_772F",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-05-01_hh.png",
+      "hv": "s1_2026-05-01_hv.png"
+    },
+    {
+      "date": "2026-05-13",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260513T001923_DVP_RTC20_G_gpuned_39FE",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-05-13_hh.png",
+      "hv": "s1_2026-05-13_hv.png"
+    },
+    {
+      "date": "2026-06-06",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260606T001922_DVP_RTC20_G_gpuned_53CD",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-06-06_hh.png",
+      "hv": "s1_2026-06-06_hv.png"
+    },
+    {
+      "date": "2026-06-18",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1A_IW_20260618T001922_DVP_RTC20_G_gpuned_50B2",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-06-18_hh.png",
+      "hv": "s1_2026-06-18_hv.png"
+    },
+    {
+      "date": "2026-06-25",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260625T001841_DVP_RTC20_G_gpuned_A1ED",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-06-25_hh.png",
+      "hv": "s1_2026-06-25_hv.png"
+    },
+    {
+      "date": "2026-07-07",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260707T001841_DVP_RTC20_G_gpuned_5649",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-07-07_hh.png",
+      "hv": "s1_2026-07-07_hv.png"
+    },
+    {
+      "date": "2026-07-19",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260719T001842_DVP_RTC20_G_gpuned_D086",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-07-19_hh.png",
+      "hv": "s1_2026-07-19_hv.png"
+    },
+    {
+      "date": "2026-07-31",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260731T001843_DVP_RTC20_G_gpuned_19F6",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-07-31_hh.png",
+      "hv": "s1_2026-07-31_hv.png"
+    },
+    {
+      "date": "2026-08-12",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260812T001844_DVP_RTC20_G_gpuned_6E1A",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-08-12_hh.png",
+      "hv": "s1_2026-08-12_hv.png"
+    },
+    {
+      "date": "2026-08-24",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260824T001844_DVP_RTC20_G_gpuned_D936",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-08-24_hh.png",
+      "hv": "s1_2026-08-24_hv.png"
+    },
+    {
+      "date": "2026-09-05",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260905T001844_DVP_RTC20_G_gpuned_DAFF",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-09-05_hh.png",
+      "hv": "s1_2026-09-05_hv.png"
+    },
+    {
+      "date": "2026-09-17",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260917T001845_DVP_RTC20_G_gpuned_90BA",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-09-17_hh.png",
+      "hv": "s1_2026-09-17_hv.png"
+    },
+    {
+      "date": "2026-09-29",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20260929T001845_DVP_RTC20_G_gpuned_3E4D",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-09-29_hh.png",
+      "hv": "s1_2026-09-29_hv.png"
+    },
+    {
+      "date": "2026-10-11",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20261011T001845_DVP_RTC20_G_gpuned_84D6",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-10-11_hh.png",
+      "hv": "s1_2026-10-11_hv.png"
+    },
+    {
+      "date": "2026-10-23",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20261023T001845_DVP_RTC20_G_gpuned_38D2",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-10-23_hh.png",
+      "hv": "s1_2026-10-23_hv.png"
+    },
+    {
+      "date": "2026-11-04",
+      "sensor": "Sentinel-1 C-band \u00b7 descending",
+      "product": "RTC",
+      "scene": "S1D_IW_20261104T001845_DVR_RTC20_G_gpuned_F55B",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-11-04_hh.png",
+      "hv": "s1_2026-11-04_hv.png"
+    }
+  ],
+  "crs": "EPSG:32645",
+  "corners": [
+    [
+      85.247562,
+      28.199969
+    ],
+    [
+      85.369978,
+      28.201482
+    ],
+    [
+      85.372268,
+      28.050027
+    ],
+    [
+      85.250024,
+      28.048523
+    ]
+  ],
+  "story": [
+    {
+      "title": "Your reading of the data",
+      "body": "Describe what changed, where, and the physical driver you propose."
+    }
+  ],
+  "event": {
+    "date": "2026-08-26",
+    "label": "Ice-rock avalanche and flash flood"
+  }
+}

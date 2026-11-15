@@ -1,0 +1,179 @@
+{
+  "title": "Padma River at Sadarpur, Faridpur, Bangladesh",
+  "subtitle": "NISAR L2 GCOV \u00b7 track 091 descending \u00b7 radar mode 2005 \u00b7 riverbank erosion",
+  "bbox": [
+    89.90013,
+    23.34435,
+    90.19988,
+    23.65571
+  ],
+  "width": 1567,
+  "height": 1694,
+  "pixel_size_m": 20.0,
+  "db_range": [
+    -30.0,
+    5.0
+  ],
+  "sensors": [
+    "NISAR L-band"
+  ],
+  "frames": [
+    {
+      "date": "2026-06-20",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_023_091_D_077_2005_QPDH_A_20260620T123458_20260620T123532_P05023_N_F_J_001",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 91,
+      "direction": "descending",
+      "frame": 77,
+      "mode": "2005",
+      "hh": "n_2026-06-20_hh.png",
+      "hv": "n_2026-06-20_hv.png"
+    },
+    {
+      "date": "2026-07-02",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_024_091_D_077_2005_DHDH_M_20260702T123457_20260702T123531_P05023_N_F_J_001",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 91,
+      "direction": "descending",
+      "frame": 77,
+      "mode": "2005",
+      "hh": "n_2026-07-02_hh.png",
+      "hv": "n_2026-07-02_hv.png"
+    },
+    {
+      "date": "2026-07-14",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_025_091_D_077_2005_QPDH_A_20260714T123456_20260714T123512_P05023_F_P_J_001",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 91,
+      "direction": "descending",
+      "frame": 77,
+      "mode": "2005",
+      "hh": "n_2026-07-14_hh.png",
+      "hv": "n_2026-07-14_hv.png"
+    },
+    {
+      "date": "2026-08-31",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_029_091_D_077_2005_QPDH_A_20260831T123454_20260831T123529_P05023_N_F_J_001",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 91,
+      "direction": "descending",
+      "frame": 77,
+      "mode": "2005",
+      "hh": "n_2026-08-31_hh.png",
+      "hv": "n_2026-08-31_hv.png"
+    },
+    {
+      "date": "2026-09-12",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_030_091_D_077_2005_DHDH_M_20260912T123454_20260912T123529_P05023_N_F_J_001",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 91,
+      "direction": "descending",
+      "frame": 77,
+      "mode": "2005",
+      "hh": "n_2026-09-12_hh.png",
+      "hv": "n_2026-09-12_hv.png"
+    },
+    {
+      "date": "2026-09-24",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_031_091_D_077_2005_QPDH_A_20260924T123454_20260924T123529_P05023_N_F_J_001",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 91,
+      "direction": "descending",
+      "frame": 77,
+      "mode": "2005",
+      "hh": "n_2026-09-24_hh.png",
+      "hv": "n_2026-09-24_hv.png"
+    },
+    {
+      "date": "2026-10-06",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_032_091_D_077_2005_DHDH_M_20261006T123454_20261006T123529_P05023_N_F_J_001",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 91,
+      "direction": "descending",
+      "frame": 77,
+      "mode": "2005",
+      "hh": "n_2026-10-06_hh.png",
+      "hv": "n_2026-10-06_hv.png"
+    },
+    {
+      "date": "2026-10-18",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_033_091_D_077_2005_QPDH_A_20261018T123454_20261018T123511_P05023_N_P_J_001",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 91,
+      "direction": "descending",
+      "frame": 77,
+      "mode": "2005",
+      "hh": "n_2026-10-18_hh.png",
+      "hv": "n_2026-10-18_hv.png"
+    }
+  ],
+  "crs": "EPSG:32646",
+  "corners": [
+    [
+      89.89297,
+      23.649859
+    ],
+    [
+      90.199878,
+      23.655711
+    ],
+    [
+      90.206334,
+      23.350113
+    ],
+    [
+      89.900131,
+      23.344345
+    ]
+  ],
+  "story": [
+    {
+      "title": "Your reading of the data",
+      "body": "Describe what changed, where, and the physical driver you propose."
+    }
+  ],
+  "default_pair": [
+    "2026-06-20",
+    "2026-10-18"
+  ]
+}

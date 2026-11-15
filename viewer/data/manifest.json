@@ -1,0 +1,232 @@
+{
+  "title": "Krasheninnikov volcano, Kamchatka",
+  "subtitle": "NISAR L-band + Sentinel-1 C-band",
+  "bbox": [
+    160.04231,
+    54.45007,
+    160.51106,
+    54.74986
+  ],
+  "width": 989,
+  "height": 1130,
+  "pixel_size_m": 30.0,
+  "db_range": [
+    -30.0,
+    5.0
+  ],
+  "sensors": [
+    "NISAR L-band",
+    "Sentinel-1 C-band"
+  ],
+  "frames": [
+    {
+      "date": "2026-06-23",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_023_132_D_061_4005_DHDH_A_20260623T084110_20260623T084146_P05023_N_F_J_001.h5",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 132,
+      "direction": "descending",
+      "frame": 61,
+      "hh": "n_2026-06-23_hh.png",
+      "hv": "n_2026-06-23_hv.png"
+    },
+    {
+      "date": "2026-08-10",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_027_132_D_061_4005_DHDH_A_20260810T084108_20260810T084143_P05023_N_F_J_001.h5",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 132,
+      "direction": "descending",
+      "frame": 61,
+      "hh": "n_2026-08-10_hh.png",
+      "hv": "n_2026-08-10_hv.png"
+    },
+    {
+      "date": "2026-09-15",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_030_132_D_061_4005_DHDH_A_20260915T084107_20260915T084142_P05023_N_F_J_001.h5",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 132,
+      "direction": "descending",
+      "frame": 61,
+      "hh": "n_2026-09-15_hh.png",
+      "hv": "n_2026-09-15_hv.png"
+    },
+    {
+      "date": "2026-11-02",
+      "sensor": "NISAR L-band",
+      "product": "PR",
+      "scene": "NISAR_L2_PR_GCOV_034_132_D_061_4005_DHDH_A_20261102T084107_20261102T084143_P05036_N_F_J_001.h5",
+      "pols": [
+        "HH",
+        "HV"
+      ],
+      "track": 132,
+      "direction": "descending",
+      "frame": 61,
+      "hh": "n_2026-11-02_hh.png",
+      "hv": "n_2026-11-02_hv.png"
+    },
+    {
+      "date": "2025-07-26",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1A_IW_20250726T193217_DVP_RTC30_G_gpuned_D373",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2025-07-26_hh.png",
+      "hv": "s1_2025-07-26_hv.png"
+    },
+    {
+      "date": "2025-08-31",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1A_IW_20250831T193217_DVP_RTC30_G_gpuned_A1CD",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2025-08-31_hh.png",
+      "hv": "s1_2025-08-31_hv.png"
+    },
+    {
+      "date": "2025-10-30",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1A_IW_20251030T193218_DVP_RTC30_G_gpuned_8296",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2025-10-30_hh.png",
+      "hv": "s1_2025-10-30_hv.png"
+    },
+    {
+      "date": "2025-12-17",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1A_IW_20251217T193214_DVP_RTC30_G_gpuned_A0B6",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2025-12-17_hh.png",
+      "hv": "s1_2025-12-17_hv.png"
+    },
+    {
+      "date": "2026-02-15",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1A_IW_20260215T193209_DVP_RTC30_G_gpuned_6966",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-02-15_hh.png",
+      "hv": "s1_2026-02-15_hv.png"
+    },
+    {
+      "date": "2026-04-04",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1A_IW_20260404T193209_DVP_RTC30_G_gpuned_1CDE",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-04-04_hh.png",
+      "hv": "s1_2026-04-04_hv.png"
+    },
+    {
+      "date": "2026-06-03",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1A_IW_20260603T193208_DVP_RTC30_G_gpuned_6E15",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-06-03_hh.png",
+      "hv": "s1_2026-06-03_hv.png"
+    },
+    {
+      "date": "2026-07-16",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1D_IW_20260716T193127_DVP_RTC30_G_gpuned_9FCF",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-07-16_hh.png",
+      "hv": "s1_2026-07-16_hv.png"
+    },
+    {
+      "date": "2026-09-14",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1D_IW_20260914T193130_DVP_RTC30_G_gpuned_38CB",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-09-14_hh.png",
+      "hv": "s1_2026-09-14_hv.png"
+    },
+    {
+      "date": "2026-11-01",
+      "sensor": "Sentinel-1 C-band",
+      "product": "RTC",
+      "scene": "S1D_IW_20261101T193130_DVR_RTC30_G_gpuned_5A16",
+      "pols": [
+        "VV",
+        "VH"
+      ],
+      "hh": "s1_2026-11-01_hh.png",
+      "hv": "s1_2026-11-01_hv.png"
+    }
+  ],
+  "story": [
+    {
+      "title": "Your reading of the data",
+      "body": "Describe what changed, where, and the physical driver you propose."
+    }
+  ],
+  "event": {
+    "date": "2025-08-03",
+    "label": "Eruption begins"
+  },
+  "crs": "EPSG:32657",
+  "corners": [
+    [
+      160.050122,
+      54.754727
+    ],
+    [
+      160.51106,
+      54.74986
+    ],
+    [
+      160.499822,
+      54.445257
+    ],
+    [
+      160.04231,
+      54.45007
+    ]
+  ]
+}

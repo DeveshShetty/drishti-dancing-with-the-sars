@@ -1,0 +1,22 @@
+[
+  {
+    "dir": "data",
+    "label": "Krasheninnikov volcano"
+  },
+  {
+    "dir": "data_gorkha",
+    "label": "Gorkha flood · 11 Oct"
+  },
+  {
+    "dir": "data_langtang",
+    "label": "Langtang Lirung source · 26 Aug"
+  },
+  {
+    "dir": "data_nepal",
+    "label": "Syabrubesi flood · 26 Aug"
+  },
+  {
+    "dir": "data_bangladesh",
+    "label": "Padma erosion · Bangladesh"
+  }
+]

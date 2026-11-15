@@ -1,0 +1,67 @@
+{
+ "dataset": "data_nepal",
+ "source": "gemini",
+ "model": "gemini-3.8-flash",
+ "error": null,
+ "generated": "2026-11-15 00:13 UTC",
+ "inputs": {
+  "images": [
+   "2026-01-01",
+   "2026-03-02",
+   "2026-05-01",
+   "2026-08-24",
+   "2026-09-05",
+   "2026-11-04"
+  ],
+  "sensor": "Sentinel-1 C-band · descending",
+  "eda": true,
+  "weather_history_factors": 4,
+  "passes_in_statistics": 26,
+  "data_gaps": []
+ },
+ "usage": {
+  "prompt_tokens": 13621,
+  "output_tokens": 1013
+ },
+ "result": {
+  "headline": "Sustained high-altitude heat preceded an ice and rock avalanche and flash flood in the Syabrubesi-Dhunche corridor in late August 2026.",
+  "what_is_happening": "In late August 2026, an ice-rock avalanche and flash flood occurred along the Syabrubesi-Dhunche corridor in Nepal. Satellite radar views of the terrain before and after the August 26 event capture ground surface conditions across rugged mountain slopes and drainage channels.\n\nWeather records show that high-altitude atmospheric warmth in the one to two months leading up to the event was exceptional. The 30-day and 60-day average air temperatures at roughly 5,500 meters altitude reached -0.79 °C and -0.70 °C, both ranking as the second warmest in 47 years of records dating back to 1980. Similarly, the freezing line hovered near 5,760 meters—well above its typical altitude—for two straight months. This prolonged warmth likely thawed high-elevation frozen rock and melted glacier ice, making steep slopes unstable.\n\nIn contrast, rainfall (32.7 mm in the three days prior and 454.1 mm over 30 days) and earthquake activity were within typical historical ranges. This indicates that unusual atmospheric warming, rather than an intense rainstorm or seismic jolt, was the primary environmental factor linked to the slope failure.",
+  "visible_changes": [
+   {
+    "between": "2026-01-01 - 2026-05-01",
+    "change": "Widespread brightening across mountain faces as winter snow and ice cover receded, exposing rougher bare rock that reflects more radar signal."
+   },
+   {
+    "between": "2026-08-24 - 2026-09-05",
+    "change": "Subtle shifts in brightness and texture along the steep central gullies and valley lines immediately following the August 26 avalanche and flash flood, where about 17.0 square kilometers became brighter and 18.3 square kilometers became darker relative to the previous pass."
+   },
+   {
+    "between": "2026-09-05 - 2026-11-04",
+    "change": "Valley floor and slope radar brightness gradually stabilized into autumn, with overall radar reflectivity dimming slightly as colder, drier post-monsoon conditions set in."
+   }
+  ],
+  "key_patterns": [
+   "High-elevation air temperatures were exceptional, ranking 2nd warmest out of 47 years over both 30-day and 60-day windows.",
+   "The freezing line remained unusually elevated at roughly 5,760 meters for two months, exposing high rock and ice faces to thawing conditions.",
+   "Rainfall before the event was within normal seasonal ranges, and no nearby earthquakes were large enough to trigger the slope failure.",
+   "A decadal warming trend of +0.61 °C per decade at 5,500 meters points to increasing long-term thermal stress on high Himalayan peaks."
+  ],
+  "prediction": {
+   "evidence_sufficient": true,
+   "outlook": "Immediate major avalanche or flash flood activity is unlikely over the coming winter months as temperatures drop well below freezing, stabilizing high-altitude rock and ice. However, disturbed debris within the main channels may slowly shift or wash downstream during subsequent melt or precipitation events.",
+   "time_horizon": "The next 1-3 months (November 2026 through January 2027)",
+   "confidence": "medium",
+   "reasons": [
+    "Radar passes through November 4 show ground reflection patterns stabilizing without signs of massive ongoing collapses.",
+    "Seasonal cooling drives the freezing level down significantly during the Himalayan winter, halting deep thermal thawing.",
+    "Precipitation and surface runoff are historically minimal during the post-monsoon and winter seasons."
+   ],
+   "what_would_change_this": "An unexpected mid-winter warm spell or a strong nearby earthquake could destabilize cracked rock and perched debris."
+  },
+  "caveats": [
+   "Radar passes are separated by multiple days, meaning fast-moving flood surges and short-lived changes are not directly captured.",
+   "Radar signal strength can be affected by slope orientation, moisture, and snowpack changes without structural ground movement.",
+   "Unusual atmospheric warmth is a likely contributing factor, not definitive proof of the failure trigger."
+  ]
+ }
+}

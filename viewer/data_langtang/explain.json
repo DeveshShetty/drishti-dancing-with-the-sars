@@ -1,0 +1,63 @@
+{
+ "dataset": "data_langtang",
+ "source": "gemini",
+ "model": "gemini-3.8-flash",
+ "error": null,
+ "generated": "2026-11-14 23:57 UTC",
+ "inputs": {
+  "images": [
+   "2026-01-01",
+   "2026-03-02",
+   "2026-05-01",
+   "2026-08-24",
+   "2026-09-05",
+   "2026-11-04"
+  ],
+  "sensor": "Sentinel-1 C-band · descending",
+  "eda": true,
+  "weather_history_factors": 4,
+  "passes_in_statistics": 26,
+  "data_gaps": []
+ },
+ "usage": {
+  "prompt_tokens": 13595,
+  "output_tokens": 961
+ },
+ "result": {
+  "headline": "A major ice and rock avalanche struck the Langtang Lirung area on 26 August 2026 following prolonged, exceptional high-altitude warmth.",
+  "what_is_happening": "An ice-rock avalanche occurred on 26 August 2026 in the high-mountain terrain of Langtang Lirung. Radar images from before the event (up through 24 August 2026) show the high slopes and valleys before the collapse. In the radar pass on 5 September 2026, fresh surface alterations appear across the upper source area and valley runout zone, where rough debris deposits and altered surface textures modify the radar backscatter (the amount of radar energy reflected back to the satellite).\n\nWeather records reveal that prolonged, unusual warming preceded the failure. Both the 30-day and 60-day mean high-altitude air temperatures at roughly 5.5 kilometres reached their second-highest levels in 47 years of monitoring (-0.79 °C and -0.70 °C, respectively). The zero-degree freezing line also hovered abnormally high, averaging around 5,750 to 5,760 metres over the preceding one to two months. This extended warmth likely degraded frozen bedrock and destabilised glacial ice.\n\nIn contrast, short-term triggers were within regular ranges: rain over the three days prior was 32.65 mm, and seismic monitoring recorded no nearby earthquakes capable of shaking the slopes loose. After the collapse, radar images into November 2026 show that the newly disturbed debris path remained stable without massive secondary runs.",
+  "visible_changes": [
+   {
+    "between": "2026-08-24 - 2026-09-05",
+    "change": "Textural changes appear in the upper catchment and along the steep drainage chutes following the 26 August avalanche, visible as modified radar reflection from exposed rock and displaced debris."
+   },
+   {
+    "between": "2026-09-05 - 2026-11-04",
+    "change": "The avalanche deposit tracks persist into autumn, with surrounding high-elevation terrain showing subtle seasonal changes as freezing conditions return."
+   }
+  ],
+  "key_patterns": [
+   "High-altitude air temperatures at ~5.5 km were the 2nd warmest in the 47-year historical record (30-day mean of -0.79 °C vs normal of -1.63 °C).",
+   "The freezing altitude was unusually elevated for two full months before failure, averaging nearly 5,760 metres.",
+   "Rainfall (32.65 mm in 3 days) and earthquake activity were near normal, pointing to long-term thermal thawing rather than a sudden storm or tremor as the primary suspect.",
+   "Radar change statistics show a steady post-event pattern without evidence of immediate catastrophic secondary collapses through early November 2026."
+  ],
+  "prediction": {
+   "evidence_sufficient": true,
+   "outlook": "Over the coming 1 to 3 months, overall slope activity at high elevations will likely decline as winter freezing sets in, though loose debris in steep drainage channels may remobilise as minor rockfalls during dry disturbances.",
+   "time_horizon": "the next 1-3 months",
+   "confidence": "medium",
+   "reasons": [
+    "Sub-zero winter temperatures typically stabilise ice and permafrost slopes after summer melt periods.",
+    "Radar observations through 4 November 2026 show the initial avalanche scar and track remaining generally stable without further major failure.",
+    "Monsoon water loading has ceased, reducing pore pressure in valley deposits."
+   ],
+   "what_would_change_this": "An unexpected late-season rain-on-snow event or a moderate to strong local earthquake could trigger secondary slope failures from loose, uncompacted debris."
+  },
+  "caveats": [
+   "Radar passes are spaced several days apart and cannot capture the exact moment or velocity of the avalanche.",
+   "Unusual atmospheric warmth is a candidate contributor and strongly correlated, but cannot be proven as the sole trigger without field investigations.",
+   "Steep Himalayan topography causes radar shadow and distortion on slopes facing away from the sensor."
+  ]
+ }
+}

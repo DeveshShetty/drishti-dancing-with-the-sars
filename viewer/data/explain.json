@@ -1,0 +1,75 @@
+{
+ "dataset": "data",
+ "source": "gemini",
+ "model": "gemini-3.8-flash",
+ "error": null,
+ "generated": "2026-11-14 23:34 UTC",
+ "inputs": {
+  "images": [
+   "2025-07-26",
+   "2025-08-31",
+   "2025-10-30",
+   "2026-02-15",
+   "2026-04-04",
+   "2026-11-01"
+  ],
+  "sensor": "Sentinel-1 C-band",
+  "eda": true,
+  "weather_history_factors": 4,
+  "passes_in_statistics": 10,
+  "data_gaps": []
+ },
+ "usage": {
+  "prompt_tokens": 10825,
+  "output_tokens": 1105
+ },
+ "result": {
+  "headline": "A massive regional earthquake preceded an eruption at Krasheninnikov volcano, producing rough new deposits that remained visible through seasonal snow cover.",
+  "what_is_happening": "Satellite radar tracked Krasheninnikov volcano before and after an eruption began on August 3, 2025. In the radar views, rough ground and fresh volcanic rock reflect energy back to the satellite, making active surfaces appear bright. By late August 2025, immediately following the start of the eruption, a noticeably bright patch developed around the summit and upper flanks, representing fresh lava, blocky debris, or ground roughened by the eruption.\n\nEnvironmental records show normal summer weather before the event, with 94.57 mm of rain and an average temperature of 9.06 °C. However, seismic activity was extraordinary: a magnitude 8.8 earthquake struck 233 km away just 3.7 days prior, among 194 earthquakes detected in the region over 30 days. This powerful shaking is a prime candidate for disturbing the volcanic plumbing system and triggering the eruption, though it cannot be confirmed as the sole cause from these measurements alone.\n\nOver the following winter and spring of 2026, large shifts in radar brightness occurred across hundreds of square kilometers as snow fell, compacted, and melted. Wet snow temporarily absorbs radar signals, causing broad dimming across the landscape. By November 2026, over a year after the eruption began, the central volcanic features had largely stabilized, leaving 61.3 square kilometers of persistently rougher, brighter ground compared to pre-eruption conditions.",
+  "visible_changes": [
+   {
+    "between": "2025-07-26 - 2025-08-31",
+    "change": "A bright patch appears on the volcano's summit and eastern flank where fresh, rough eruption products were deposited."
+   },
+   {
+    "between": "2025-08-31 - 2025-10-30",
+    "change": "The bright signature at the summit expands slightly, showing defined channels and lobes spreading downhill."
+   },
+   {
+    "between": "2025-10-30 - 2026-02-15",
+    "change": "Large portions of the surrounding caldera floor turn darker as winter snow settles across the landscape."
+   },
+   {
+    "between": "2026-02-15 - 2026-04-04",
+    "change": "Widespread darkening across slopes as spring conditions and wet snow reduce radar reflection."
+   },
+   {
+    "between": "2026-04-04 - 2026-11-01",
+    "change": "Snow clears from the lower caldera, revealing durable, rough new terrain around the central cone."
+   }
+  ],
+  "key_patterns": [
+   "A magnitude 8.8 earthquake struck 233 km away less than 4 days before the eruption began, highlighting seismic shaking as a likely trigger.",
+   "Pre-eruption rainfall (94.57 mm) and summer temperatures (9.06 °C) were within normal historical ranges.",
+   "Surface roughness changed immediately after the August 2025 eruption start, creating 23.2 square kilometers of new bright terrain by August 31.",
+   "Pronounced seasonal swings dominated late winter and spring 2026, with overall brightness plunging to -14.7 decibels before recovering as snow melted."
+  ],
+  "prediction": {
+   "evidence_sufficient": true,
+   "outlook": "The volcanic edifice is expected to enter another seasonal cycle of winter snow accumulation with subdued, stable volcanic output, while the fresh eruption deposits will remain structurally intact under the snow.",
+   "time_horizon": "the next 1-3 months",
+   "confidence": "low",
+   "reasons": [
+    "The radar record covers only a single eruption cycle (about 15 months), which limits confidence under standard assessment rules.",
+    "Radar brightness patterns between September and November 2026 show stabilizing trends rather than rapid new expansion of lava or debris.",
+    "Entering late autumn and winter in Kamchatka brings persistent freezing conditions and heavy snow accumulation."
+   ],
+   "what_would_change_this": "A sudden expansion of intense bright patches or large new ground scars in winter radar imagery, which would indicate renewed lava effusion or structural collapse."
+  },
+  "caveats": [
+   "Radar passes occur weeks to months apart and capture ground conditions, not the active eruption plumes or short-lived explosive blasts.",
+   "Deep snow cover and spring snowmelt alter radar reflectivity across vast areas, which can partially mask volcanic ground changes during winter months.",
+   "Statistical association between the magnitude 8.8 earthquake and the eruption does not prove direct causation without subsurface geophysical modeling."
+  ]
+ }
+}

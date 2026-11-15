@@ -1,0 +1,70 @@
+{
+ "dataset": "data_bangladesh",
+ "source": "gemini",
+ "model": "gemini-3.8-flash",
+ "error": null,
+ "generated": "2026-11-15 00:20 UTC",
+ "inputs": {
+  "images": [
+   "2026-06-20",
+   "2026-07-02",
+   "2026-08-31",
+   "2026-09-12",
+   "2026-10-06",
+   "2026-10-18"
+  ],
+  "sensor": "NISAR L-band",
+  "eda": true,
+  "weather_history_factors": 4,
+  "passes_in_statistics": 8,
+  "data_gaps": []
+ },
+ "usage": {
+  "prompt_tokens": 11069,
+  "output_tokens": 1044
+ },
+ "result": {
+  "headline": "Monsoon floodwaters across the Padma River floodplain peaked in late summer and receded sharply by mid-October, leaving riverbanks vulnerable to collapse as water levels drop.",
+  "what_is_happening": "Across the four-month radar monitoring window, the Padma River floodplain experienced a full seasonal flood cycle. In late June and early July, water was largely contained within the main river channels and minor tributaries, showing up as dark ribbon-like shapes where smooth water reflects radar energy away from the satellite.\n\nBetween July and early September, seasonal monsoon waters spread extensively across the surrounding lowlands. Large areas of the floodplain turned dark on the radar as fields and seasonal channels were submerged. The total area registering as significantly darker peaked around late August and mid-September at over 260 square kilometers compared to the June baseline, reflecting peak inundation.\n\nBy early to mid-October, the floodwaters retreated rapidly. Radar brightness rebounded across the floodplain as saturated soil and vegetation emerged from the water. However, the data highlights an unusually steep 80 percent drop in basin rainfall over the last 30 days compared to the wettest month (ranking 4th sharpest drop in 47 years). Such rapid post-peak water level drops are a known primary driver of bank failure in the Padma system, as saturated riverbanks lose the supporting pressure of high river water.",
+  "visible_changes": [
+   {
+    "between": "2026-06-20 - 2026-07-02",
+    "change": "River channels remain well-defined and dark, while adjacent floodplain areas show moderate radar reflection with minimal standing water."
+   },
+   {
+    "between": "2026-07-02 - 2026-08-31",
+    "change": "Widespread darkening across the floodplain to the west and south of the main river, showing major seasonal flooding filling oxbow lakes, secondary channels, and low fields."
+   },
+   {
+    "between": "2026-08-31 - 2026-09-12",
+    "change": "Peak inundation persists, with extensive dark water bodies visible across the bottom-left floodplain and braided sandbars partially submerged."
+   },
+   {
+    "between": "2026-09-12 - 2026-10-18",
+    "change": "Rapid drainage of standing water across the floodplains, with land brightening as ground emerges and river channels narrow back toward dry-season configurations."
+   }
+  ],
+  "key_patterns": [
+   "Radar brightness dropped substantially to -10.85 dB in mid-September during high water, before climbing back to -7.81 dB on 2026-10-18 as waters receded.",
+   "Upstream rainfall across the season was relatively modest (Brahmaputra basin rain was in the lowest 9 percent of historical records at 1,447 mm), meaning overall flooding was not extreme.",
+   "The transition from high water to low water occurred unusually fast, with basin rainfall dropping by 80.1 percent compared to peak levels (ranking 4th out of 47 years)."
+  ],
+  "prediction": {
+   "evidence_sufficient": true,
+   "outlook": "Over the coming weeks, floodplain drying will continue and river channels will stabilize into their low-water patterns. However, localized bank slumping and erosion are likely along vulnerable curved bends and sandbars as the rapidly receding river drains water from saturated sandy banks.",
+   "time_horizon": "the next 1-2 months (November to December 2026)",
+   "confidence": "medium",
+   "reasons": [
+    "The radar sequence clearly shows rapid drainage across the landscape between September 12 and October 18.",
+    "The rapid drop in rainfall (80.1% drop relative to the wettest 30 days) is historically associated with post-flood bank instability along the Padma River.",
+    "The typical seasonal pattern for this region transitions into the dry winter season with steadily falling river levels."
+   ],
+   "what_would_change_this": "Late unseasonal cyclonic rainfall over the upstream basin causing a sudden resurgence in river discharge and secondary flooding."
+  },
+  "caveats": [
+   "Radar passes occur roughly every 12 to 18 days, so individual bank collapse events cannot be tracked in real time.",
+   "Radar brightness changes indicate standing water versus rough ground, but do not directly measure river flow velocity or water depth.",
+   "Rainfall statistics reflect broad basin-wide estimates rather than daily local water height records at Sadarpur."
+  ]
+ }
+}

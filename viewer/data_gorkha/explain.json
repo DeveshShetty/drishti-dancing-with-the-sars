@@ -1,0 +1,70 @@
+{
+ "dataset": "data_gorkha",
+ "source": "gemini",
+ "model": "gemini-3.8-flash",
+ "error": null,
+ "generated": "2026-11-14 23:50 UTC",
+ "inputs": {
+  "images": [
+   "2026-01-01",
+   "2026-03-02",
+   "2026-05-01",
+   "2026-09-29",
+   "2026-10-11",
+   "2026-11-04"
+  ],
+  "sensor": "Sentinel-1 C-band",
+  "eda": true,
+  "weather_history_factors": 4,
+  "passes_in_statistics": 26,
+  "data_gaps": []
+ },
+ "usage": {
+  "prompt_tokens": 13057,
+  "output_tokens": 1112
+ },
+ "result": {
+  "headline": "A landslide-dam breach flood struck the Budhi Gandaki valley in October 2026 following exceptionally heavy late-monsoon rain.",
+  "what_is_happening": "Between January and November 2026, satellite radar tracked conditions across the rugged Budhi Gandaki valley in Gorkha, Nepal. On October 11, 2026, a flood caused by a breached landslide dam occurred in the valley. Radar measures the energy bounced back from the ground (called backscatter), where rough debris and steep slopes show up bright, and smooth water or mud appear darker. Throughout the summer monsoon, widespread surface shifts occurred across the mountainsides, visible in seasonal changes in radar brightness.\n\nWeather analysis indicates that long-term rainfall accumulation was a likely contributor to the hazard. Over the 30 days prior to the October 11 event, the valley received 255.29 mm of rain—the third highest amount recorded for that window in 47 years of records, well above the historical average of 161.34 mm. This prolonged soaking saturated high mountain slopes, creating favorable conditions for slope failure and damming along drainage paths.\n\nImmediate triggers right before the event were less extreme. Rainfall was only 0.35 mm on the day before the breach and 10.89 mm over the preceding three days, both well within normal ranges. Temperatures and high-altitude freezing levels remained near average, and seismic records show zero earthquakes of magnitude 4.0 or larger within 300 km during the prior month. This indicates that deep terrain saturation from weeks of excessive rain, rather than a sudden downpour or tremor, was the primary candidate behind the instability.",
+  "visible_changes": [
+   {
+    "between": "2026-01-01 - 2026-05-01",
+    "change": "Upper mountain ridges and slopes transition from high-contrast winter radar reflections to altered scattering as seasonal snowpack and surface moisture shift across the upper valleys."
+   },
+   {
+    "between": "2026-05-01 - 2026-09-29",
+    "change": "Extensive brightness shifts occur across the mountain flanks during the summer monsoon, with 214.6 square kilometers showing brighter returns and 268.5 square kilometers appearing darker relative to January."
+   },
+   {
+    "between": "2026-09-29 - 2026-10-11",
+    "change": "At the time of the flood, distinct textural changes and brightness variations appear along narrow drainage corridors and valley bottoms where floodwaters and debris passed."
+   },
+   {
+    "between": "2026-10-11 - 2026-11-04",
+    "change": "In the weeks following the breach, ground reflection patterns begin stabilizing toward dry-season levels, with median radar signal settling around -8.5 decibels."
+   }
+  ],
+  "key_patterns": [
+   "Rainfall over the 30 days before the flood reached 255.29 mm, ranking in the top 5 percent (3rd highest in 47 years) and providing exceptional slope saturation.",
+   "Short-term rainfall in the 1 to 3 days before the breach was near or below normal, pointing to delayed instability rather than an isolated cloudburst.",
+   "No earthquakes of magnitude 4.0 or greater occurred within 300 km in the 30 days leading up to the flood.",
+   "Radar change statistics show large areas shifting by more than 3 decibels (doubling or halving in signal) during the peak wet season before stabilizing in late autumn."
+  ],
+  "prediction": {
+   "evidence_sufficient": true,
+   "outlook": "The immediate threat of additional rainfall-triggered landslide-dam breaches is expected to decline significantly as the region enters the dry winter season, though unconsolidated debris along river channels will remain vulnerable to minor shifting.",
+   "time_horizon": "the next 1-3 months",
+   "confidence": "medium",
+   "reasons": [
+    "Historical weather data shows that monsoon rains cease rapidly after October, removing the excessive moisture that drove slope failures.",
+    "Post-event radar passes on October 23 and November 4 show the valley floor and surrounding slopes stabilizing rather than undergoing widespread new disruption."
+   ],
+   "what_would_change_this": "An unseasonal heavy winter storm or a moderate-to-large earthquake in the central Nepal Himalayas could reactivate destabilized slopes and block river channels anew."
+  },
+  "caveats": [
+   "Radar passes occur days apart and capture conditions before and after the flood rather than the peak water level itself.",
+   "Steep Himalayan topography causes radar shadowing and geometric distortion that can mask smaller slope failures.",
+   "Weather metrics reflect regional model estimates and may not capture localized torrential downpours in narrow side tributaries."
+  ]
+ }
+}
