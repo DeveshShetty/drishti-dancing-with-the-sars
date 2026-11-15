@@ -68,3 +68,11 @@ node_modules/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ---------------------------------------------------------------- website build (scripts/build_site.py)
+dist/
+
+# ---------------------------------------------------------------- kept local, not published
+presentation/
+shortlist_scenes.csv
+scripts/gemini.env.example

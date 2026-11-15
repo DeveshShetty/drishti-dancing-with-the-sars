@@ -2,9 +2,16 @@
 
 **See how the ground changes after a disaster, from radar satellites that look through cloud and darkness.**
 
+**[Open the live app](https://drishti-sars-493bb.web.app)** · [Quick start](#quick-start) · [Reproduce the data](#reproduce-everything-from-raw-data) · [Deploy your own](docs/DEPLOY.md)
+
+[![Live app](https://img.shields.io/badge/live_app-drishti--sars-38d5e6)](https://drishti-sars-493bb.web.app)
+[![tests](https://github.com/DeveshShetty/drishti-dancing-with-the-sars/actions/workflows/tests.yml/badge.svg)](https://github.com/DeveshShetty/drishti-dancing-with-the-sars/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![NASA Space Apps 2026](https://img.shields.io/badge/NASA_Space_Apps-2026-0b3d91)](https://www.spaceappschallenge.org)
+
 DRISHTI is a browser app for exploring surface change in NASA-ISRO **NISAR** (L-band) and ESA **Sentinel-1** (C-band) radar images. It compares any two satellite passes over the same place, shows what got rougher or smoother, drapes the result over 3D terrain, tests which weather or earthquake conditions were unusual before each event, and explains the scene in plain language with Google Gemini.
 
-Built by **Rocket Boys** for **NASA Space Apps Challenge 2026** (*Dancing with the SARs*), Hack Athlone.
+Built by **Rocket Boys** (Devesh Shetty and Pranav Sharma) for the **NASA Space Apps Challenge 2026** challenge *Dancing with the SARs*, at Hack Athlone.
 
 ![DRISHTI: radar change draped over 3D terrain at Langtang Lirung, Nepal](docs/images/03_3d_langtang.jpg)
 
@@ -15,11 +22,12 @@ Built by **Rocket Boys** for **NASA Space Apps Challenge 2026** (*Dancing with t
 - [What it does](#what-it-does)
 - [Study sites](#study-sites)
 - [Screenshots](#screenshots)
-- [Quick start: run the app in two minutes](#quick-start-run-the-app-in-two-minutes)
+- [Quick start](#quick-start)
 - [Using the viewer](#using-the-viewer)
 - [How it works](#how-it-works)
 - [Reproduce everything from raw data](#reproduce-everything-from-raw-data)
 - [Add your own site](#add-your-own-site)
+- [Deployment](#deployment)
 - [Project structure](#project-structure)
 - [Method notes and limitations](#method-notes-and-limitations)
 - [Data sources and credits](#data-sources-and-credits)
@@ -66,9 +74,11 @@ Built by **Rocket Boys** for **NASA Space Apps Challenge 2026** (*Dancing with t
 
 ---
 
-## Quick start: run the app in two minutes
+## Quick start
 
-The repository already contains the processed data for all five sites, so you only need Python (3.8 or newer, no packages) and a browser.
+**Online:** open **https://drishti-sars-493bb.web.app** in Chrome, Edge, Firefox or Safari. Nothing to install. The first visit to a site downloads its radar passes (up to about 200 MB for Gorkha), so give it a few seconds.
+
+**Locally, in two minutes:** the repository already contains the processed data for all five sites, so you only need Python (3.8 or newer, no packages) and a browser.
 
 ```bash
 git clone https://github.com/DeveshShetty/drishti-dancing-with-the-sars.git
@@ -258,6 +268,8 @@ python tests/test_synthetic.py   # converter: synthetic scenes with planted chan
 python tests/test_explain.py     # Gemini integration with the API mocked (19 tests)
 ```
 
+Both run automatically on every push (see the *tests* badge at the top).
+
 ---
 
 ## Add your own site
@@ -266,6 +278,19 @@ python tests/test_explain.py     # Gemini integration with the API mocked (19 te
 2. Convert with `pipeline/nisar_to_viewer.py` into `viewer/data_<name>` (step 7).
 3. Add the folder to `viewer/datasets.json`: `{"dir": "data_<name>", "label": "My site"}`.
 4. Optional: add the site to `SITES` in `scripts/drivers.py`, then run `drivers.py` and `explain.py`.
+
+---
+
+## Deployment
+
+The app is a static website, hosted on **Firebase Hosting** (Google Cloud) at https://drishti-sars-493bb.web.app. To publish an update:
+
+```bash
+python scripts/build_site.py          # builds dist/ from viewer/, without keys or old copies
+firebase deploy --only hosting
+```
+
+[docs/DEPLOY.md](docs/DEPLOY.md) covers the one-time setup, the optional Google Maps key, a custom domain, rollback and cost. Any other static host (GitHub Pages, Netlify, Azure Static Web Apps, a plain web server) can serve `dist/` as it is.
 
 ---
 
@@ -291,11 +316,15 @@ drishti-dancing-with-the-sars/
 │   ├── explain.py             Gemini explanations
 │   ├── mm_check.py            Meteomatics account check
 │   ├── settings.py            reads keys from environment variables / .env
+│   ├── build_site.py          builds the public website (dist/)
 │   └── _dl.py                 resumable download helper
-├── tests/                     converter and Gemini tests
-├── docs/images/               README screenshots
-├── presentation/              presenter brief
+├── tests/                     converter and Gemini tests (run on every push by GitHub Actions)
+├── docs/
+│   ├── DEPLOY.md              hosting guide (Firebase)
+│   └── images/                README screenshots
+├── .github/workflows/         tests.yml: continuous integration
 ├── *_scenes.csv               scene lists used for the published data
+├── firebase.json, .firebaserc Firebase Hosting configuration
 ├── requirements.txt
 ├── .env.example               key template (copy to .env)
 └── LICENSE
@@ -332,7 +361,7 @@ drishti-dancing-with-the-sars/
 
 Event descriptions draw on public reporting by ICIMOD, Eos (The Landslide Blog), Himalayan Geographic, Down To Earth, The Kathmandu Post and Wikipedia.
 
-Team: **Rocket Boys** · NASA Space Apps Challenge 2026 · Hack Athlone.
+**Team Rocket Boys:** Devesh Shetty ([@DeveshShetty](https://github.com/DeveshShetty)) and Pranav Sharma ([@PranavSharma10](https://github.com/PranavSharma10)) · NASA Space Apps Challenge 2026 · Hack Athlone.
 
 ---
 

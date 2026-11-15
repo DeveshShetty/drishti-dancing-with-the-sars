@@ -1,0 +1,11 @@
+# Normalise text files to LF in the repository; check out with the platform's line endings
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+# binary data: never touch
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary
+*.h5 binary
+*.tif binary
